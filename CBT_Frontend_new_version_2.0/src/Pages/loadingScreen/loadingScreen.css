@@ -1,0 +1,10 @@
+.loading img {
+    animation: zoomIn 2.5s infinite;
+    scale: 1;
+}
+
+@keyframes zoomIn {
+    50% {
+        scale: 0;
+    }
+}

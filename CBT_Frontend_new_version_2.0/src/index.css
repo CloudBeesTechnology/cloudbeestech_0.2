@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .screen-size {
+    @apply max-w-screen-2xl w-[95%] mx-auto;
+  }
+  .heading {
+    @apply text-center font-semibold text-[80px];
+  }
+  .sub-heading {
+    @apply text-center font-semibold text-[43px];
+  }
+  .title {
+    @apply text-center text-4xl font-semibold;
+  }
+  .sub-title {
+    @apply text-center text-xl font-semibold;
+  }
+  .desc {
+    @apply text-center font-medium text-sm;
+  }
+  .sub-desc {
+    @apply text-center text-lg font-light;
+  }
+  .center {
+    @apply flex justify-center items-center;
+  }
+  .para{
+    @apply text-sm font-light
+  }
+
+  .bgImage {
+    background-image: url(./assets/home/home_bg/cloudbeestech_home_bg.png);
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+ 
+  .bg-gradient-1 {
+    @apply bg-gradient-to-t from-[#070F12]  to-grey;
+  }
+  .bg-gradient-2 {
+    @apply bg-gradient-to-r from-[#070F12] from-30% to-grey;
+  }
+  .btn-1 {
+    @apply px-6 py-2 text-center rounded-full font-semibold text-lg text-secondary bg-primary;
+  }
+  .btn-2 {
+    @apply px-5 py-2 text-center border rounded-full text-lg font-semibold;
+  }
+  .under-border {
+    @apply after:h-1 after:w-full after:bg-primary after:absolute after:-bottom-2 after:left-0  relative;
+  }
+  .custom-border-none:last-child,
+  .custom-border-none:nth-last-child(2) {
+    border-bottom: none;
+  }
+  .custom-border:last-child {
+    border: none;
+  }
+  .progress-bgImage {
+    background-image: url(./assets/home/progress/progress.png);
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+  .progress-title {
+    @apply text-[40px] text-center text-primary font-semibold;
+  }
+  .form-input {
+    @apply p-2 border-b w-full text-mediumgrey text-sm border-mediumgrey;
+  }
+  .footer-direction {
+    @apply text-yellow text-sm font-light border-b border-primary;
+  }
+ 
+}

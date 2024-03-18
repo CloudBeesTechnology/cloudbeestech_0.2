@@ -1,0 +1,33 @@
+.flip-card{
+    animation:card 15s infinite ease-in-out;
+    transform-style: preserve-3d;
+    animation-play-state: running;
+}
+
+@keyframes card{
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+  
+  .flip-card-back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card:hover{
+    /* transform: rotateY(0deg); */
+    animation-play-state: paused;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
