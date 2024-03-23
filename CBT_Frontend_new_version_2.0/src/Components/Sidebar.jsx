@@ -25,7 +25,7 @@ export const Sidebar = (props) => {
           Home
         </NavLink>
         <NavLink
-          to="/service"
+          to="/services"
           className={({ isActive }) => (isActive ? "under-border" : "")} onClick={onclose}
         >
           Services
@@ -37,7 +37,7 @@ export const Sidebar = (props) => {
           Technologies
         </NavLink> */}
         <NavLink
-          to="/project"
+          to="/projects"
           className={({ isActive }) => (isActive ? "under-border" : "")} onClick={onclose}
         >
           Projects

@@ -34,7 +34,7 @@ export const OurServices = () => {
                 alt={`${val.title} not found`}
               />
               <h4 className="sub-title text-secondary">{val.title}</h4>
-              <p className=" desc font-light text-secondary">{val.content}</p>
+              <p className="desc font-light text-secondary">{val.content}</p>
               <div
                 className={
                   index % 2 === 0 && index !== ServiceDetails.length - 2

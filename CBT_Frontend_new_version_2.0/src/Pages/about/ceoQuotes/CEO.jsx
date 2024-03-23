@@ -18,7 +18,8 @@ export const CEO = () => {
           <em>
             {" "}
             Business is a team sport. Learn, practice, and teach others. Then,
-            restart and repeat the process, always striving for excellence and <span className="relative">
+            restart and repeat the process, always striving for excellence and{" "}
+            <span className="relative">
               growth.{" "}
               <sup className="text-primary sm:text-2xl text-lg absolute top-0 ml-4">
                 <FaQuoteRight />
@@ -38,7 +39,7 @@ export const CEO = () => {
             <em>
               {" "}
               Business is a team sport. Learn, practice, and teach others. Then,
-              restart and repeat the process, always striving for excellence and
+              restart and repeat the process, always striving for excellence and{" "}
               <span className="relative">
                 growth.{" "}
                 <sup className="text-primary sm:text-2xl text-lg absolute top-0 ml-4">

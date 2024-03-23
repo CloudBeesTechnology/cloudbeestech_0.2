@@ -10,7 +10,7 @@ export const IndiaTeam = () => {
           </h4>
         </div>
         <section className="screen-size mx-auto ">
-          <div className="grid items-center justify-evenly grid-cols-[repeat(1,minmax(270px,350px))] max-w-full md:grid-cols-[repeat(2,minmax(300px,300px))] lg:grid-cols-[repeat(3,minmax(300px,300px))] justify-items-center  gap-14 my-20">
+          <div className="grid justify-evenly grid-cols-[repeat(1,minmax(270px,350px))] max-w-full md:grid-cols-[repeat(2,minmax(300px,300px))] lg:grid-cols-[repeat(3,minmax(300px,300px))] gap-14 my-20">
             {TeamDetail.slice(2).map((value, index) => {
               return (
                 <TeamCardDesign key={index} name={value.name} designation={value.designation} skill={value.skill} link={value.link} img={value.img} />

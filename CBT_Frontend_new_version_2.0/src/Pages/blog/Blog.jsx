@@ -1,13 +1,15 @@
+import { Outlet } from "react-router-dom";
 import { CommonHome } from "../../Components/CommonHome";
 
 export const Blog = () => {
   return (
     <>
       <CommonHome
-        firstTitle="We have design"
-        secondTitle="experiences for over 30+ projects"
-        desc="At CloudBees Tech, we take pride in our diverse portfolio of projects spanning various industries and sectors. Our team's expertise and dedication have led to successful outcomes and satisfied clients"
+        firstTitle="How to  choose your"
+        secondTitle="Programming Language / Tech Stack"
+        desc="Welcome to our blog, where every post is a journey into the realms of inspiration, knowledge, and discovery. Delve into captivating narratives, thought-provoking insights, and expertly curated content that ignites curiosity and fosters meaningful conversations."
       />
+      <Outlet />
     </>
   );
 };

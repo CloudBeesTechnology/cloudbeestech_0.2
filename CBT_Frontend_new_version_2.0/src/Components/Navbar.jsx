@@ -38,7 +38,7 @@ export const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
-                to="/service" 
+                to="/services" 
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Services
@@ -50,7 +50,7 @@ export const Navbar = () => {
                 Technologies
               </NavLink> */}
               <NavLink 
-                to="/project" 
+                to="/projects" 
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Projects

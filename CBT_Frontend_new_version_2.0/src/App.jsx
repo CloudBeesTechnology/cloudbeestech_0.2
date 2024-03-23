@@ -14,6 +14,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import ReactGA from "react-ga4";
 import { Blog } from "./Pages/blog/Blog";
 import { MouseMove } from "./Components/MouseMove";
+import { BlogCards } from "./Pages/blog/BlogCards";
+import { BlogBrief } from "./Pages/blog/BlogBrief";
 
 const Tracking_ID = "G-FQBD30BCCX";
 ReactGA.initialize(Tracking_ID);
@@ -38,48 +40,51 @@ export const App = () => {
     // return () => {
     //   window.removeEventListener("load", handleLoad);
     // };
-      const Load = setTimeout(() => {
-        setLoadScreen(true);
-      }, 3000);
+    const Load = setTimeout(() => {
+      setLoadScreen(true);
+    }, 3000);
 
-      return () => clearTimeout(Load);
+    return () => clearTimeout(Load);
   }, []);
 
   return (
-    <HelmetProvider >
+    <HelmetProvider>
       <Helmet>
         <link rel="canonical" href={window.location.href} />
       </Helmet>
-      {/* <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
-        <Route path="/service" Component={Services} />
-        <Route path="/project/*" Component={Project} /> */}
+        <Route path="/services" Component={Services} />
+        <Route path="/projects/*" Component={Project} />
       {/* <Route path="/techies" Component={Technologies} /> */}
-      {/* <Route path="/career" Component={Career} />
+      <Route path="/career" Component={Career} />
         <Route path="/contact" Component={Contact} />
       </Routes>
-      <Footer /> */}
-      {loadScreen ? (
+      <Footer />
+      {/* {loadScreen ? (
         <>
           <Navbar />
-        {/* <MouseMove/> */}
+          <MouseMove/>
           <Routes>
             <Route path="/" Component={Home} />
             <Route path="/about" Component={About} />
-            <Route path="/service" Component={Services} />
-            <Route path="/project" Component={Project} />
-            {/* <Route path="/techies" Component={Technologies} /> */}
+            <Route path="/services" Component={Services} />
+            <Route path="/projects" Component={Project} />
+            <Route path="/techies" Component={Technologies} />
             <Route path="/career" Component={Career} />
-            <Route path="/blog" Component={Blog} />
+            <Route path="/blog" Component={Blog}>
+              <Route index element={<BlogCards />} />
+              <Route path="blogDetails/:id" element={<BlogBrief />} />
+            </Route>
             <Route path="/contact" Component={Contact} />
           </Routes>
           <Footer />
         </>
       ) : (
-        <LoadingScreen/>
-      )}
+        <LoadingScreen />
+      )} */}
     </HelmetProvider>
   );
 };
