@@ -5,7 +5,7 @@ export const Sidebar = (props) => {
   const { onclose, sidebar } = props;
   return (
     <section
-      className={`fixed top-0 bg-gradient-1 h-screen z-50 p-10 block min-[1000px]:hidden ${
+      className={`fixed top-0 bg-gradient-1 h-screen z-50 p-10 block min-[1100px]:hidden ${
         sidebar
           ? "right-0 transition-all duration-700 ease-out"
           : "-right-56 transition-all duration-700 ease-out"
@@ -53,6 +53,19 @@ export const Sidebar = (props) => {
           className={({ isActive }) => (isActive ? "under-border" : "")} onClick={onclose}
         >
           Who we are
+        </NavLink>
+        <NavLink
+          to="/gallery"
+          className={({ isActive }) => (isActive ? "under-border" : "")} onClick={onclose}
+        >
+          Gallery
+        </NavLink>
+        <NavLink
+          to="https://b2vtech.com/"
+          target="_blank"
+          className={({ isActive }) => (isActive ? "under-border" : "")} onClick={onclose}
+        >
+          Courses
         </NavLink>
         {/* <NavLink
           to="/blog"

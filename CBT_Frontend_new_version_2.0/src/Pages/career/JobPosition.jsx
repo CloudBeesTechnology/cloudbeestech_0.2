@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { PopupForm } from "./PopupForm";
 import { JPDetails } from "./JPDetails";
+import { Link } from "react-router-dom";
 
 export const JobPosition = () => {
   const [showForm, setShowForm] = useState(false);
@@ -12,8 +13,9 @@ export const JobPosition = () => {
       <h2 className="title text-darkgrey mb-8">
         <span className="text-primary">Job</span> Openings
       </h2>
-
-      <section className="center justify-evenly gap-10 flex-wrap w-full">
+      <p className="sub-title font-light text-darkgrey my-5"><em>Stay tuned for more updates <span className="text-primary">Coming your way soon</span></em></p>
+      <Link to="/contact" className="text-[#2200CC] underline italic">Connect with US</Link>
+      {/* <section className="center justify-evenly gap-10 flex-wrap w-full">
         {JPDetails.map((val, i) => {
           return (
             <div
@@ -54,7 +56,7 @@ export const JobPosition = () => {
             </div>
           );
         })}
-      </section>
+      </section> */}
 
       {showForm && <PopupForm onclose={applyForm} />}
     </section>

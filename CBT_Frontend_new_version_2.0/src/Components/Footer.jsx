@@ -124,7 +124,7 @@ export const Footer = () => {
               <FaInstagram />
             </Link>
             <Link
-              to="https://www.linkedin.com/in/cloudbees-tech/"
+              to="https://www.linkedin.com/company/cloudbees-technology/"
               target="_blank"
             >
               <FaLinkedinIn />

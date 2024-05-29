@@ -16,6 +16,7 @@ import { Blog } from "./Pages/blog/Blog";
 import { MouseMove } from "./Components/MouseMove";
 import { BlogCards } from "./Pages/blog/BlogCards";
 import { BlogBrief } from "./Pages/blog/BlogBrief";
+import { Gallery } from "./Pages/gallery/Gallery";
 
 const Tracking_ID = "G-FQBD30BCCX";
 ReactGA.initialize(Tracking_ID);
@@ -60,6 +61,7 @@ export const App = () => {
         <Route path="/projects/*" Component={Project} />
       {/* <Route path="/techies" Component={Technologies} /> */}
       <Route path="/career" Component={Career} />
+      <Route path="/gallery" Component={Gallery} />
         <Route path="/contact" Component={Contact} />
       </Routes>
       <Footer />

@@ -13,6 +13,8 @@ import IND_T11 from "../../assets/about/cloudbeestech_IND_T11.jpg";
 import IND_T12 from "../../assets/about/cloudbeestech_IND_T12.jpg";
 import IND_T13 from "../../assets/about/cloudbeestech_IND_T13.jpg";
 import IND_T14 from "../../assets/about/cloudbeestech_IND_T14.jpg";
+import IND_T15 from "../../assets/about/cloudbeestech_IND_T15.jpg";
+import IND_T16 from "../../assets/about/cloudbeestech_IND_T16.jpg";
 
 export const TeamDetail = [
   {
@@ -56,7 +58,7 @@ export const TeamDetail = [
   {
     img: IND_T3,
     name: "THIRU",
-    designation: "Lead Mobile Developer",
+    designation: "Lead Mobile Consultant",
     skill: "RESTful APIs and Web Services, Programming language skills",
     link: "https://www.linkedin.com/in/thirunavukkarasu-kumaraguru-7885aa37/",
   },
@@ -73,13 +75,13 @@ export const TeamDetail = [
     skill: "Javascript, React, Node, Express, MongoDb, Tailwind",
     link: "https://www.linkedin.com/in/arthi-hari-03a04k1998/",
   },
-  {
-    img: IND_T6,
-    name: "SHUNMUGAM RAJA",
-    designation: "Mobile Developer",
-    skill: "Javascript, React js, React Native, Flutter",
-    link: "https://www.linkedin.com/in/shanmuga-raja-914124219",
-  },
+  // {
+  //   img: IND_T6,
+  //   name: "SHUNMUGAM RAJA",
+  //   designation: "Mobile Developer",
+  //   skill: "Javascript, React js, React Native, Flutter",
+  //   link: "https://www.linkedin.com/in/shanmuga-raja-914124219",
+  // },
   {
     img: IND_T7,
     name: "VEDAMBIGAI",
@@ -94,20 +96,29 @@ export const TeamDetail = [
     skill: "Analytical skills, Financial analysis, Accounting",
     link: "https://www.linkedin.com/in/vinothramalingam/",
   },
-  {
-    img: IND_T11,
-    name: "NAVEEN",
-    designation: "Flutter Trainee",
-    skill: "Flutter, Dart, API integration, MS(SQL)",
-    link: "https://www.linkedin.com/in/knaveendev1999/",
-  },
+  // {
+  //   img: IND_T14,
+  //   name: "EZHILARASAN",
+  //   designation: "Digital Marketing Trainee",
+  //   skill: "SEO, SMM, GMB, Analytics",
+  //   link: "https://www.linkedin.com/in/ezhildigitalmarketing/",
+  // },
+ 
   {
     img: IND_T12,
     name: "STEPHEN JOHN",
     designation: "UI/UX Trainee",
-    skill: "Figma, Wireframing, Photoshop",
+    skill: "Figma, Wireframing, Photoshop, Prototyping",
     link: "https://www.linkedin.com/in/stephen-john-5a31692b6/",
   },
+  {
+    img: IND_T16,
+    name: "Ajay",
+    designation: "UI/UX Trainee",
+    skill: "Figma, Wireframing, Photoshop, Branding, Prototyping",
+    link: "https://www.linkedin.com/in/ajayuxuidesigner",
+  },
+
   {
     img: IND_T13,
     name: "KARTHIKEYAN",
@@ -115,11 +126,19 @@ export const TeamDetail = [
     skill: "HTML, CSS, Javascript, React, Bootstrap",
     link: "https://www.linkedin.com/in/karthikeyan-web-developer/",
   },
+
   {
-    img: IND_T14,
-    name: "EZHILARASAN",
-    designation: "Digital Marketing Trainee",
-    skill: "SEO, SMM, GMB, Analytics",
-    link: "https://www.linkedin.com/in/ezhildigitalmarketing/",
+    img: IND_T11,
+    name: "Fardzana Begum",
+    designation: "Web Developer Trainee",
+    skill: "HTML, CSS, Javascript, React, Bootstrap",
+    link: "https://www.linkedin.com/in/fardzana-begum/",
   },
+  // {
+  //   img: IND_T15,
+  //   name: "Sathiyamoorthi",
+  //   designation: "Flutter Trainee",
+  //   skill: "Dart, Flutter, Firebase, State management",
+  //   link: "https://www.linkedin.com/in/sathiyamoorthi-m/",
+  // },
 ];

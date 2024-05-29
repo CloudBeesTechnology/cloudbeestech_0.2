@@ -11,14 +11,12 @@ export const Navbar = () => {
     return setSidebar(!sidebar);
   }
 
-
-
   return (
     <>
       <Sidebar sidebar={sidebar} onclose={aside} />
       <section className="bg-grey center py-5 px-2 sticky top-0 z-40 h-28 overflow-hidden">
         <div className="screen-size center justify-between gap-5 ">
-          <Link to="/"  >
+          <Link to="/">
             <img
               className="w-full object-cover"
               src={logo}
@@ -26,19 +24,15 @@ export const Navbar = () => {
             />
           </Link>
           <section className="center justify-between gap-10 ">
-            <div className="center gap-8 text-white desc max-[1000px]:hidden">
+            <div className="center gap-8 text-white desc max-[1100px]:hidden">
               <NavLink
-                to="/" 
-                className={({ isActive }) =>
-                  isActive
-                    ? "under-border "
-                    : ""
-                }
+                to="/"
+                className={({ isActive }) => (isActive ? "under-border " : "")}
               >
                 Home
               </NavLink>
               <NavLink
-                to="/services" 
+                to="/services"
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Services
@@ -49,23 +43,36 @@ export const Navbar = () => {
               >
                 Technologies
               </NavLink> */}
-              <NavLink 
-                to="/projects" 
+              <NavLink
+                to="/projects"
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Projects
               </NavLink>
               <NavLink
-                to="/career" 
+                to="/career"
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Careers
               </NavLink>
               <NavLink
-                to="/about" 
+                to="/about"
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Who we are
+              </NavLink>
+              <NavLink
+                to="/gallery"
+                className={({ isActive }) => (isActive ? "under-border" : "")}
+              >
+                Gallery
+              </NavLink>
+              <NavLink
+                to="https://b2vtech.com/"
+                target="_blank"
+                className={({ isActive }) => (isActive ? "under-border" : "")}
+              >
+                Courses
               </NavLink>
               {/* <NavLink
                 to="/blog" 
@@ -74,7 +81,7 @@ export const Navbar = () => {
                 Blog
               </NavLink> */}
               <NavLink
-                to="/contact" 
+                to="/contact"
                 className={({ isActive }) => (isActive ? "under-border" : "")}
               >
                 Contact Us
@@ -84,7 +91,7 @@ export const Navbar = () => {
            <Link to="/touch"> Get in touch</Link>
           </div> */}
             <div
-              className="title text-white block min-[1000px]:hidden"
+              className="title text-white block min-[1100px]:hidden"
               onClick={aside}
             >
               <RiMenuAddFill />
