@@ -11,7 +11,7 @@ export const LifeCBT = () => {
         innovation flourishes. Come along for a rewarding path of development
         and cooperation in the software industry.
       </p>
-      <div className="my-10">
+      <div className="my-10 mx-3">
         <img
           className="w-full object-cover"
           src={group}

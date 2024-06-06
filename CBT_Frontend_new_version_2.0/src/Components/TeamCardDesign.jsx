@@ -17,22 +17,25 @@ const {img,name,designation,skill,link}=props
       </div>
     </div>
 
-    <article className="text-center mt-16">
+    <div className="text-center mt-16 ">
+      <article className="sm:h-40 mb-3">
       <h5 className="text-xl text-primary font-bold">{name}</h5>
-      <h6 className="text-lg text-grey font-semibold py-2">
+      <h6 className="text-lg text-grey font-semibold p-2">
         {designation}
       </h6>
-      <p className="text-sm text-litegrey mb-5 px-3 h-16">
+      <p className="text-sm text-litegrey mb-5 px-3">
         <span className="text-darkgrey font-semibold font-serif">
           Skills : &nbsp;
         </span>
         {skill}
       </p>
+      </article>
+     
       <div className="flex justify-center mb-5 bg-darkgrey text-2xl text-white py-2">
       <Link to={link} target="_blank">
      <FaLinkedin />  </Link>   
       </div>
-    </article>
+    </div>
   </section>
   )
 }

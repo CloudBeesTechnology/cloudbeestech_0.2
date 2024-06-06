@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "./Components/Navbar";
 import { Home } from "./Pages/home/Home";
 import { Footer } from "./Components/Footer";
@@ -59,10 +59,15 @@ export const App = () => {
         <Route path="/about" Component={About} />
         <Route path="/services" Component={Services} />
         <Route path="/projects/*" Component={Project} />
-      {/* <Route path="/techies" Component={Technologies} /> */}
-      <Route path="/career" Component={Career} />
-      <Route path="/gallery" Component={Gallery} />
+        {/* <Route path="/techies" Component={Technologies} /> */}
+        <Route path="/career" Component={Career} />
+        <Route path="/blog" Component={Blog}>
+          <Route index element={<BlogCards />} />
+          <Route path="blogDetails/:id" element={<BlogBrief />} />
+        </Route>
+        <Route path="/gallery" Component={Gallery} />
         <Route path="/contact" Component={Contact} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
       {/* {loadScreen ? (

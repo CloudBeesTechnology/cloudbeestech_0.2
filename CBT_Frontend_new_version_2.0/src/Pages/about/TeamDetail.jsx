@@ -15,6 +15,7 @@ import IND_T13 from "../../assets/about/cloudbeestech_IND_T13.jpg";
 import IND_T14 from "../../assets/about/cloudbeestech_IND_T14.jpg";
 import IND_T15 from "../../assets/about/cloudbeestech_IND_T15.jpg";
 import IND_T16 from "../../assets/about/cloudbeestech_IND_T16.jpg";
+import IND_T17 from "../../assets/about/cloudbeestech_IND_T17.jpg";
 
 export const TeamDetail = [
   {
@@ -50,7 +51,7 @@ export const TeamDetail = [
   {
     img: IND_T9,
     name: "Anandavelu Azhagar",
-    designation: "Business and Delivery Head",
+    designation: "Cloud Architect and Security/Compliance",
     skill:
       "Cloud Architect Consultant, Devops, Customer Management, Security & Compliance",
     link: "https://www.linkedin.com/in/anandavelua/",
@@ -62,12 +63,12 @@ export const TeamDetail = [
     skill: "RESTful APIs and Web Services, Programming language skills",
     link: "https://www.linkedin.com/in/thirunavukkarasu-kumaraguru-7885aa37/",
   },
-  {
-    img: IND_T4,
-    name: "MOHAMED IJASS",
-    designation: "UI/UX Lead",
-    skill: "Adobe XD, Figma, Web design, Flutter, Interaction design",
-  },
+  // {
+  //   img: IND_T4,
+  //   name: "MOHAMED IJASS",
+  //   designation: "UI/UX Lead",
+  //   skill: "Adobe XD, Figma, Web design, Flutter, Interaction design",
+  // },
   {
     img: IND_T5,
     name: "ARTHI",
@@ -107,14 +108,14 @@ export const TeamDetail = [
   {
     img: IND_T12,
     name: "STEPHEN JOHN",
-    designation: "UI/UX Trainee",
+    designation: "UI/UX Designer",
     skill: "Figma, Wireframing, Photoshop, Prototyping",
     link: "https://www.linkedin.com/in/stephen-john-5a31692b6/",
   },
   {
     img: IND_T16,
     name: "Ajay",
-    designation: "UI/UX Trainee",
+    designation: "UI/UX Designer",
     skill: "Figma, Wireframing, Photoshop, Branding, Prototyping",
     link: "https://www.linkedin.com/in/ajayuxuidesigner",
   },
@@ -122,17 +123,24 @@ export const TeamDetail = [
   {
     img: IND_T13,
     name: "KARTHIKEYAN",
-    designation: "Web Developer Trainee",
-    skill: "HTML, CSS, Javascript, React, Bootstrap",
+    designation: "Web Developer",
+    skill: "HTML, CSS, Javascript, React, Bootstrap, Tailwind",
     link: "https://www.linkedin.com/in/karthikeyan-web-developer/",
   },
 
   {
     img: IND_T11,
     name: "Fardzana Begum",
-    designation: "Web Developer Trainee",
-    skill: "HTML, CSS, Javascript, React, Bootstrap",
+    designation: "Web Developer",
+    skill: "HTML, CSS, Javascript, React, Bootstrap, Tailwind",
     link: "https://www.linkedin.com/in/fardzana-begum/",
+  },
+  {
+    img: IND_T17,
+    name: "Vishnu",
+    designation: "Cloud and Networking",
+    skill: "Aws(Amazon Web Services), Network Administration, Server System Management.",
+    link: "https://www.linkedin.com/in/vishnu-s-b08806252/",
   },
   // {
   //   img: IND_T15,
