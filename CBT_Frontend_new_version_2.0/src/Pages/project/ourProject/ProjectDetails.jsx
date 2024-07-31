@@ -8,6 +8,8 @@ import nice from "../../../assets/project/ourProject/cloudbeestech_project_nice.
 import anj from "../../../assets/project/ourProject/cloudbeestech_project_anj.png";
 import spring from "../../../assets/project/ourProject/cloudbeestech_project_spring.png";
 import b2v from "../../../assets/project/ourProject/cloudbeestech_project_b2v.png";
+import senthur from "../../../assets/project/ourProject/cloudbeestech_project_senthur.png";
+import lpk from "../../../assets/project/ourProject/cloudbeestech_project_LPK.png";
 import comb from "../../../assets/home/home_service/cloudbeestech_service_comb.png";
 
 export const ProjectDetails = [
@@ -80,5 +82,19 @@ export const ProjectDetails = [
     desc: "Access resources and guides to help you excel in your internship and future career.our platform offers a wealth of knowledge and tools to help you thrive during your internship and chart a course toward a prosperous career.",
     honeycomb: comb,
     link:"https://b2vtech.com/",
+  },
+  {
+    img:senthur,
+    title: "Senthur Velavan Groups",
+    desc: "Senthur Velavan Groups real estate division excels in developing premium residential and commercial properties. They are committed to quality, innovation, and customer satisfaction in every project.",
+    honeycomb: comb,
+    link:"https://senthurvelavangroups.com/",
+  },
+  {
+    img: lpk,
+    title: "Le' Pondy Kitchen",
+    desc: "Le Pondy Kitchen offers a delightful fusion of traditional and contemporary South Indian cuisine. Its charming ambiance and authentic flavors make it a favorite for food enthusiasts.",
+    honeycomb: comb,
+    // link:"https://b2vtech.com/",
   },
 ];

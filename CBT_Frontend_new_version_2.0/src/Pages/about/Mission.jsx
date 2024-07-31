@@ -7,6 +7,7 @@ export const Mission = () => {
         <h5 className="title text-darkgrey mb-10">
           <span className="text-primary"> Our</span> Mission
         </h5>
+        
         <section className="flex max-[1100px]:flex-col sm:gap-10 lg:my-20">
           <div  className="flex-1 flex flex-col gap-5 px-2">
             <h2 className="text-2xl max-[1100px]:text-center font-semibold text-secondary" >CloudBees Tech bring you ideas to life.</h2>
@@ -25,6 +26,7 @@ export const Mission = () => {
             <img className="object-cover w-full max-w-[500px]" src={mission} alt="mission image not found" />
           </div>
         </section>
+        <p className="text-[transparent] text-center">CloudBees</p>
       </section>
   
   );

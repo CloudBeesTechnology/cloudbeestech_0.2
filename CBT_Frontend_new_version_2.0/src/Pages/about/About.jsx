@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 import { CEO } from "./ceoQuotes/CEO";
 
 export const About = () => {
-  const [title,setTitle]=useState(true)
+
   const path = useLocation();
   useEffect(() => {
     window.scrollTo({

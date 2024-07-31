@@ -19,7 +19,7 @@ export const ViewPdf = ({ pdfPath,onClose }) => {
         </div>
       ) : (
         <div className=" text-xl text-primary center h-full font-semibold bg-white rounded-lg">
-          <p className="border shadow-lg p-10 rounded-lg">We Update Soon</p>
+          <p className="border shadow-lg p-10 rounded-lg">Coming soon.....</p>
         </div>
       )}
       </div>

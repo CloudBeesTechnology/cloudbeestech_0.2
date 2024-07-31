@@ -11,6 +11,7 @@ export const HomeService = () => {
           Delivering top-notch services and ensuring timely project completion,
           setting the standard for excellence in the industry.
         </p>
+        <p className="text-[transparent]">CloudBees</p>
         <section className="center flex-wrap sm:my-10">
           {ServiceDetails.slice(0,6).map((val, index) => {
      
@@ -26,6 +27,7 @@ export const HomeService = () => {
                 />
                 <h3 className="sub-title text-secondary">{val.title}</h3>
                 <p className=" desc font-light text-secondary">{val.content}</p>
+                <p className="text-[transparent]">CloudBees</p>
                 <div
                 
                   className={

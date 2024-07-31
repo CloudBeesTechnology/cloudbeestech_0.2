@@ -4,6 +4,7 @@ export const Progress = () => {
   return (
    
       <section className="screen-size bg-gradient-2 center sm:justify-around flex-wrap gap-10 my-10 p-10 text-white rounded-lg">
+        
         {ProgressDetails.map((value,i)=>{
           return(
             <div key={i}>

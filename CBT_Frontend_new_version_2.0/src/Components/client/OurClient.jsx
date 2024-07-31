@@ -11,6 +11,7 @@ export const OurClient = () => {
       <h2 className="title text-darkgrey mb-10">
         <span className="text-primary">Our </span> Clients
       </h2>
+
       <section className="center bg-gradient-1 my-10">
         <div className="screen-size my-10 center">
           <Swiper
@@ -52,6 +53,7 @@ export const OurClient = () => {
           </Swiper>
         </div>
       </section>
+      <p className="text-[transparent] text-center">CloudBees</p>
     </section>
   );
 };

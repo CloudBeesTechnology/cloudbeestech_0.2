@@ -4,7 +4,6 @@ import { JobPosition } from "./JobPosition";
 import { useLocation } from "react-router-dom";
 
 export const Career = () => {
-  const [title,setTitle]=useState(true)
   const path = useLocation();
     useEffect(() => {
     window.scrollTo({

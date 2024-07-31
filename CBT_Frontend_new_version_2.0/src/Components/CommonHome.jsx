@@ -20,6 +20,7 @@ export const CommonHome = (props) => {
         <p className="desc text-[16px] font-light md:w-1/2 w-full px-3">
        <em>   {desc}</em>
         </p>
+        <p className="text-[transparent]">Best Software companies in Puducherry</p>
         {/* <button className={`${display} btn-1`}>{btn} </button> */}
       </div>
       <div className="max-sm:hidden">

@@ -19,7 +19,7 @@ const {img,name,designation,skill,link}=props
 
     <div className="text-center mt-16 ">
       <article className="sm:h-40 mb-3">
-      <h5 className="text-xl text-primary font-bold">{name}</h5>
+      <h5 className="text-xl text-primary font-bold">{name.toUpperCase()}</h5>
       <h6 className="text-lg text-grey font-semibold p-2">
         {designation}
       </h6>
@@ -36,6 +36,7 @@ const {img,name,designation,skill,link}=props
      <FaLinkedin />  </Link>   
       </div>
     </div>
+    
   </section>
   )
 }

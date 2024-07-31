@@ -28,7 +28,7 @@ export const Home = () => {
         secondTitle="igital"
         TTthirdLetter="T"
         thirdTitle="ransformation"
-        desc="Providing smart digital solutions solving complex challenges and
+        desc="CloudBees Tech providing smart digital solutions solving complex challenges and
     delivering innovative solutions that help our customers ahead"
         display="hidden"
         topic={title}
@@ -39,7 +39,7 @@ export const Home = () => {
       <LifeCBT />
       {/* <Testimonials/> */}
       <OurClient />
-      <HomeTechnologies/>
+      <HomeTechnologies />
       <Touch />
       {/* {!cookies.cookiesConsent && <Cookies/>} */}
     </main>

@@ -18,6 +18,7 @@ export const IndiaTeam = () => {
             })}
           </div>
         </section>
+        <p className="text-[transparent] text-center">CloudBees</p>
       </section>
     );
   };

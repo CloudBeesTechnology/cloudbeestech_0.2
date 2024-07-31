@@ -29,6 +29,7 @@ export const BlogCards = () => {
       <p className="desc font-light text-secondary my-5 md:w-[70%] px-2">
         How to choose your Programming Language / Tech Stack
       </p>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <div className="grid grid-cols-1 justify-items-center gap-x-5 my-5 gap-y-16 md:grid-cols-2 lg:grid-cols-3 px-2">
         {BCDetails.map((value, i) =>{
            return(
@@ -67,7 +68,7 @@ export const BlogCards = () => {
           onClose={() => setViewPdf(false)}
         />
       )}
-      
+            <p className="text-[transparent] text-center">CloudBees</p>
     </section>
   );
 };

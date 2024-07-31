@@ -11,6 +11,7 @@ export const Touch = () => {
           experiences that excite & inspire
         </h2>
         <Link to="/contact" className="btn-1 text-secondary ">Let's Talk</Link>
+        <p className="text-[transparent] text-center">CloudBees</p>
       </section>
    
   );

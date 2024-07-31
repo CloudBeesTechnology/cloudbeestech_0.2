@@ -22,27 +22,34 @@ export const Footer = () => {
       <div className="screen-size center text-white flex-col flex-wrap gap-14 mt-16 mb-5">
         <section className="flex justify-center lg:justify-between  flex-wrap">
           <div className="w-full lg:w-[30%] flex flex-col max-lg:items-center gap-5 font-light text-sm">
-           <div >
-            <img className="object-cover max-w-72 w-full" src={logo} alt="namelogo not found "/>
-           </div>
-            <div className="max-lg:center gap-3 max-lg:text-center flex-wrap max-[500px]:flex-col">
-            <p className="para flex-1  max-sm:text-center">
-              We are a team of young developers developing digital products and
-              services that have a positive impact on people.
-            </p>
-            <article className="flex-1 my-5">
-              <p className="para">
-                <b className="text-sm font-medium ">Email:</b>{" "}
-                hr@cloudbeestech.com
+            <div>
+              <img
+                className="object-cover max-w-72 w-full"
+                src={logo}
+                alt="namelogo not found "
+              />
+              <p className="text-[transparent]">
+                Best Software companies in Puducherry
               </p>
-              <div className="flex gap-1 my-1 max-lg:justify-center">
-                <p className="text-sm font-medium">Phone: </p>{" "}
-                <article className="para">
-                  <p> India - +91 -7200533357 </p>
-                  <p>USA - +1 (614) 632-9349</p>
-                </article>
-              </div>
-            </article>
+            </div>
+            <div className="max-lg:center gap-3 max-lg:text-center flex-wrap max-[500px]:flex-col">
+              <p className="para flex-1  max-sm:text-center">
+                We are a team of young developers developing digital products
+                and services that have a positive impact on people.
+              </p>
+              <article className="flex-1 my-5">
+                <p className="para">
+                  <b className="text-sm font-medium ">Email:</b>{" "}
+                  hr@cloudbeestech.com
+                </p>
+                <div className="flex gap-1 my-1 max-lg:justify-center">
+                  <p className="text-sm font-medium">Phone: </p>{" "}
+                  <article className="para">
+                    <p> India - +91 -7200533357 </p>
+                    <p>USA - +1 (614) 632-9349</p>
+                  </article>
+                </div>
+              </article>
             </div>
           </div>
           <div className="flex sm:justify-around justify-center max-md:text-center mt-3 sm:mt-10 flex-wrap gap-10">
@@ -51,7 +58,7 @@ export const Footer = () => {
                 Pondicherry
               </h6>
               <p className="para sm:h-20">
-                #1, III Main road, <br /> Kavery Nagar,
+                #1, III Main road, <br /> Chellam Papu Nagar,
                 <br /> Reddiyarpalayam, <br />
                 Puducherry - 605010
               </p>
@@ -75,7 +82,7 @@ export const Footer = () => {
                 Opposite to double tank,
                 <br />
                 KK Nagar,
-                <br/> 
+                <br />
                 Chennai - 600078
               </p>
               <div>
@@ -110,6 +117,7 @@ export const Footer = () => {
           </div>
         </section>
         <section className=" flex flex-col max-sm:text-center gap-5 ">
+          <p className="text-[transparent] text-center">CloudBees</p>
           <p className="para">
             © 2019 - 2024 CloudBees Tech Private Limited. All rights reserved.
           </p>
@@ -120,7 +128,10 @@ export const Footer = () => {
             >
               <FaFacebookF />
             </Link>
-            <Link to="https://www.instagram.com/cloudbeestechnology/?hl=en" target="_blank">
+            <Link
+              to="https://www.instagram.com/cloudbeestechnology/?hl=en"
+              target="_blank"
+            >
               <FaInstagram />
             </Link>
             <Link

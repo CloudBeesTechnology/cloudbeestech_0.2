@@ -1,4 +1,7 @@
 import { GalleryImage } from "./ImgGallery";
+import { FaYoutube } from "react-icons/fa6";
+import youtube from '../../assets/gallery/youtube.svg'
+import { Link } from "react-router-dom";
 
 export const MemoriesOfCBT = () => {
   return (
@@ -6,6 +9,7 @@ export const MemoriesOfCBT = () => {
       <h2 className="title text-darkgrey mb-8">
         <span className="text-primary"> Life</span> at CBT
       </h2>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <div className="grid grid-cols-3 gap-5 md:px-5 max-md:grid-cols-1 max-w-screen-2xl w-full">
         {GalleryImage.map((url, i) => {
           const isImage = url.match(/\.(jpeg|jpg|gif|png)$/);
@@ -30,11 +34,18 @@ export const MemoriesOfCBT = () => {
                   </div>
                 )}
               </div>
-           
             </section>
           );
-        })}
+        })} 
+        <div className="text-white gallery-bgImage  relative z-20 center h-96 ">
+          <div className="absolute top-0 bg-black w-full h-full -z-10 rounded-sm" ></div>
+          <Link to="https://www.youtube.com/channel/UC_KJFoDIPN75NRHZs3xalKg" target="_blank" className=""><img className="" src={youtube} alt="youtube image not found" /></Link>
+        {/* <button>view more</button> */}
+
+        </div>
       </div>
+      <p className="text-[transparent] text-center">CloudBees</p>
     </section>
   );
 };
+

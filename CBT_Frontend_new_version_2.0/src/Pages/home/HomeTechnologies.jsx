@@ -6,6 +6,7 @@ export const HomeTechnologies = () => {
       <h2 className="title max-[360px]:text-3xl text-darkgrey">
         <span className="text-primary">Our</span> Technologies
       </h2>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <div className="center sm:justify-evenly flex-wrap gap-10 sm:my-16 my-10">
         {OTDetails.map((val, i) => {
           return ( 
@@ -18,6 +19,7 @@ export const HomeTechnologies = () => {
           );
         })}
       </div>
+      <p className="text-[transparent] text-center">CloudBees</p>
     </section>
   );
 };

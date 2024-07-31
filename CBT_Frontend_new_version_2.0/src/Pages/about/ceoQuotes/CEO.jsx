@@ -50,6 +50,7 @@ export const CEO = () => {
           </h3>
         </div>
       </div>
+      <p className="text-[transparent] text-center">CloudBees</p>
     </section>
   );
 };

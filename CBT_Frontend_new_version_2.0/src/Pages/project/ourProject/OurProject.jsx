@@ -7,6 +7,7 @@ export const OurProject = () => {
       <h2 className="title text-darkgrey">
         <span className="text-primary">Our</span> Projects
       </h2>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <div className="grid grid-cols-2 max-md:grid-cols-1 md:mt-14 mt-5 last:col-span-5">
         {ProjectDetails.map((val, i) => {
           return (
@@ -29,6 +30,7 @@ export const OurProject = () => {
               </div>
               <h3 className="sub-title text-secondary">{val.title}</h3>
               <p className="desc font-light text-secondary ]">{val.desc}</p>
+              <p className="text-[transparent] text-center">CloudBees</p>
               <div
                 className={
                   i % 2 === 0 && i !== ProjectDetails.length - 1

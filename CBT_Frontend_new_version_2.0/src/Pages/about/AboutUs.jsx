@@ -25,6 +25,7 @@ export const AboutUs = () => {
               stay ahead of the curve.
             </p>
             {/* <button className="btn-1">Know more</button> */}
+          <p className="text-[transparent] text-center">CloudBees</p>
           </div>
         </section>
       </section>

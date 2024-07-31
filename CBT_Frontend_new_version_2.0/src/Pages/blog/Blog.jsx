@@ -1,7 +1,15 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { CommonHome } from "../../Components/CommonHome";
+import { useEffect } from "react";
 
 export const Blog = () => {
+  const path = useLocation();
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [path]);
   return (
     <>
       <CommonHome

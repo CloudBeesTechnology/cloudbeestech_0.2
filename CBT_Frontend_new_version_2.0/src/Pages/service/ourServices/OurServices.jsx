@@ -17,6 +17,7 @@ export const OurServices = () => {
           unparalleled customer satisfaction to drive your business forward.
         </p>
       </div>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <h3 className="title text-darkgrey mt-10">
         <span className="text-primary">Our</span> Services
       </h3>
@@ -35,6 +36,7 @@ export const OurServices = () => {
               />
               <h4 className="sub-title text-secondary">{val.title}</h4>
               <p className="desc font-light text-secondary">{val.content}</p>
+              <p className="text-[transparent] text-center">CloudBees</p>
               <div
                 className={
                   index % 2 === 0 && index !== ServiceDetails.length - 2

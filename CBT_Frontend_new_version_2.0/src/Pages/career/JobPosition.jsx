@@ -13,8 +13,10 @@ export const JobPosition = () => {
       <h2 className="title text-darkgrey mb-8">
         <span className="text-primary">Job</span> Openings
       </h2>
+      <p className="text-[transparent] text-center">CloudBees</p>
       <p className="sub-title font-light text-darkgrey my-5"><em>Stay tuned for more updates <span className="text-primary">Coming your way soon</span></em></p>
       <Link to="/contact" className="text-[#2200CC] underline italic">Connect with US</Link>
+      <p className="text-[transparent] text-center">CloudBees</p>
       {/* <section className="center justify-evenly gap-10 flex-wrap w-full">
         {JPDetails.map((val, i) => {
           return (

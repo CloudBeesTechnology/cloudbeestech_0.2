@@ -89,6 +89,10 @@
   .footer-direction {
     @apply text-yellow text-sm font-light border-b border-primary;
   }
+  .gallery-bgImage {
+    background-image: url(./assets/gallery/cbt_22.jpg);
+    @apply bg-cover bg-no-repeat bg-center;
+  }
  
 }
 

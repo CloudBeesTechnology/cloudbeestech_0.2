@@ -106,7 +106,7 @@ export const Navbar = () => {
                   </span>
                 )}
                 {dropDown && (
-                  <div className="absolute top-10 bg-white text-black  shadow-liteblack z-20 shadow-md  py-2 flex flex-col gap-2 px-2">
+                  <div className="absolute top-10 bg-white text-black rounded-md shadow-liteblack z-20 shadow-md  py-2 flex flex-col gap-2 px-2">
                     {" "}
                     <p className="border-b border-litegrey text-start pb-1">
                       Business

@@ -14,6 +14,7 @@ export const Contact = () => {
   return (
     <>
       <ContactUs />
+      <p className="text-[transparent] text-center">CloudBees</p>
     </>
   );
 };
